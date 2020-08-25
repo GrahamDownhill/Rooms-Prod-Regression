@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5.Cleanup (delete all clinics)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a11a6fca-0f01-4f80-9063-4012d7f618cf</testCaseGuid>
+</TestCaseEntity>
