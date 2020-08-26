@@ -16,6 +16,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+CucumberKW.comment('Initialise - Open browser window, navigate to Rooms. ')
+
 'Opens Browser window'
 WebUI.openBrowser('')
 
@@ -24,11 +26,15 @@ WebUI.navigateToUrl('https://rooms.dev.myclinic.com/')
 'Maximise window (avoids navbar)'
 WebUI.maximizeWindow()
 
+CucumberKW.comment('Login')
+
 WebUI.setText(findTestObject('Page_Rooms - MyCliniccom/input_Email Address_InputEmail'), 'stuartdownhill@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Page_Rooms - MyCliniccom/input_Password_InputPassword'), 'Z6c1Gmkhx6wY/aJCn5EUIg==')
 
 WebUI.click(findTestObject('Page_Rooms - MyCliniccom/button_Log In'))
+
+CucumberKW.comment('Create clinic named Test 1')
 
 WebUI.setText(findTestObject('Page_Rooms - MyCliniccom/input_Name_ModelName'), 'test 1')
 

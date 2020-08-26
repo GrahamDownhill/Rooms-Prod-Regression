@@ -6,15 +6,19 @@
    <elementGuidId>def6ed1d-0ecd-4af5-8114-269e4ac26eaa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Model_Name']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#Model_Name</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = 'Model_Name' and @name = 'Model.Name']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='Model_Name']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

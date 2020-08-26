@@ -3,6 +3,8 @@
    <description></description>
    <name>1.Dr login and create clinic (1st)</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Initialise - Open browser window, navigate to Rooms. 
+Login
+Create clinic named Test 1</comment>
    <testCaseGuid>84c11a29-9c50-4467-8a15-c59233f5bfce</testCaseGuid>
 </TestCaseEntity>

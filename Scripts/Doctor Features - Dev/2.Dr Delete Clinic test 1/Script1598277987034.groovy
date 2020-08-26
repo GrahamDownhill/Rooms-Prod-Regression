@@ -32,6 +32,8 @@ WebUI.click(findTestObject('Page_Rooms - MyCliniccom/span_Manage Clinics (1)'))
 
 WebUI.click(findTestObject('Page_Rooms - MyCliniccom/button_End Clinic (1)'))
 
+CucumberKW.comment('Following log in - Test Clinic 1 is ended')
+
 WebUI.click(findTestObject('Page_Rooms - MyCliniccom/a_End Clinic (1)'))
 
 WebUI.click(findTestObject('Page_Rooms - MyCliniccom/span_Logout (2)'))

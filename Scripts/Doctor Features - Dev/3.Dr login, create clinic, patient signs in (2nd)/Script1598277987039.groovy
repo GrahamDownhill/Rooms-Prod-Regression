@@ -30,6 +30,8 @@ WebUI.click(findTestObject('Page_Rooms - MyCliniccom/button_Log In (8)'))
 
 WebUI.setText(findTestObject('Page_Rooms - MyCliniccom/input_Name_ModelName (4)'), 'test clinic2')
 
+CucumberKW.comment('New Clinic created - Test 2')
+
 WebUI.click(findTestObject('Page_Rooms - MyCliniccom/input_Expiration_ModelAudioMessagesEnabled (2)'))
 
 WebUI.click(findTestObject('Page_Rooms - MyCliniccom/button_Create Clinic (4)'))
@@ -37,6 +39,8 @@ WebUI.click(findTestObject('Page_Rooms - MyCliniccom/button_Create Clinic (4)'))
 WebUI.click(findTestObject('Page_Rooms - MyCliniccom/button_Close (4)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Rooms - MyCliniccom/a_6J2-HR7'))
+
+CucumberKW.comment('Clinic window opened and patient attempts sign in')
 
 WebUI.switchToWindowIndex('1')
 
@@ -60,6 +64,8 @@ WebUI.click(findTestObject('Page_Rooms - MyCliniccom/div_Allow VideoAudio Permis
 
 WebUI.switchToWindowIndex('0')
 
+CucumberKW.comment('On successful sign in, Return to Clinician window and connect to the patient in call')
+
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_Rooms - MyCliniccom/button_Connect'))
@@ -77,6 +83,8 @@ WebUI.click(findTestObject('Object Repository/Page_Rooms - MyCliniccom/div_07777
 WebUI.click(findTestObject('Page_Rooms - MyCliniccom/a_End Call (7)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Rooms - MyCliniccom/i_Call time was 0 minutes and 15 seconds_fa_fe16da'))
+
+CucumberKW.comment('End call and give feedback')
 
 WebUI.click(findTestObject('Page_Rooms - MyCliniccom/button_Submit Feedback (1)'))
 
